@@ -1,25 +1,35 @@
 package compitoFNGGMP;
 
 public class ACWP {
-	private int val;
+	private int nAttivitaSvolte;
+	private int costo_X_Attivita;
+	
+	
+	
+	public ACWP(int nAttivitaSvolte, int costo_X_Attivita) {
+	
+		this.nAttivitaSvolte = nAttivitaSvolte;
+		this.costo_X_Attivita = costo_X_Attivita;
+	}
 
-	public ACWP(int val) {
-		super();
-		this.val = val;
+	public int getnAttivitaSvolte() {
+		return nAttivitaSvolte;
 	}
 	
-	public ACWP() {
-		this.val = 0;
+	public void setnAttivitaSvolte(int nAttivitaSvolte) {
+		this.nAttivitaSvolte = nAttivitaSvolte;
 	}
-
+	
+	public int getCosto_X_Attivita() {
+		return costo_X_Attivita;
+	}
+	
+	public void setCosto_X_Attivita(int costo_X_Attivita) {
+		this.costo_X_Attivita = costo_X_Attivita;
+	}
 	
 	public int getVal() {
-		return val;
+		return (this.getnAttivitaSvolte() * this.getCosto_X_Attivita());
 	}
-
-	public void setVal(int val) {
-		this.val = val;
-	}
-	
 	
 }

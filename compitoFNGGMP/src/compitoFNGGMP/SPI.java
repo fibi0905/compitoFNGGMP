@@ -1,8 +1,8 @@
 package compitoFNGGMP;
 
 public class SPI {
-	BCWP bcwp = new BCWP();
-	BCWS bcws = new BCWS();
+	BCWP bcwp ;
+	BCWS bcws ;
 	
 	public SPI(BCWP bcwp, BCWS bcws) {
 		this.bcwp = bcwp;

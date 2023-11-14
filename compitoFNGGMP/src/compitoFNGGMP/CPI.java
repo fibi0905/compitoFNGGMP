@@ -1,8 +1,8 @@
 package compitoFNGGMP;
 
 public class CPI {
-	BCWP bcwp = new BCWP();
-	ACWP acwp = new ACWP();
+	BCWP bcwp ;
+	ACWP acwp ;
 	
 	public CPI(BCWP bcwp, ACWP acwp) {
 		this.bcwp = bcwp;
